@@ -1,0 +1,121 @@
+/* App.css */
+/* Ajoutez d'autres styles CSS au besoin */
+
+/* Style de la grille de produits */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style des produits individuels */
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Style des images de produit */
+.product img {
+  width: 100%;
+  max-height: 150px; /* Limitez la hauteur de l'image pour un affichage uniforme */
+  margin-bottom: -10px;
+}
+
+/* Style des boutons de produit */
+.product button {
+  background-color: rgb(187 37 37);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product button:hover {
+  background-color: #0056b3;
+}
+
+/* Style des blocs en haut */
+.top-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style des blocs en bas */
+.bottom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Conteneur du logo et de la recherche */
+.logo-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style du logo */
+.logo img {
+  width: 100px; /* Augmentez la largeur du logo selon vos besoins */
+  margin-right: 10px;
+}
+
+
+/* Style de la barre de recherche */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.search-bar button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+
+/* Dans votre fichier App.css ou un autre fichier CSS pertinent */
+
+/* Style du pied de page */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style des liens sociaux */
+.social-media a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Style des autres liens */
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
